@@ -10,7 +10,7 @@
   (1)、查看jenkins状态 sudo service jenkins status
   <br> (2)、启动jenkins sudo service jenkins start
   <br> (3)、查看密码 sudo cat /var/lib/jenkins/secrets/initialAdminPassword然后进行相关配置选择安装推荐插件，然后安装web-hook和git-plugin
-  ###### 5、修改jenkins用户为root否则执行shell脚本时会包没有权限的错误 vim /etc/sysconfig/jenkins
+  ###### 5、修改jenkins用户为root否则执行shell脚本时会报没有权限的错误 vim /etc/sysconfig/jenkins
   ###### 6、安装node和cnpm 
   (1)、curl --silent --location https://rpm.nodesource.com/setup_4.x | bash - sudo yum install -y nodejs
   <br>(2)、sudo yum install -y node js
